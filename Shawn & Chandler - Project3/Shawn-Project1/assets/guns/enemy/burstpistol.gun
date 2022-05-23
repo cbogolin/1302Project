@@ -1,0 +1,26 @@
+###0: Gun type
+HandGun
+###1: Name
+Enemy Pistol
+###2: Damage
+1
+###3: BurstSize
+1
+###4: Max Ammo
+1
+###5: Accuracy
+.5
+###6: Burst Delay
+1
+###7: Rate of fire
+1
+###8: Reload speed
+90
+###9: FireType
+SemiAuto
+###10: Bullet Texture
+/Application/assets/images/bullets/556bullet.png
+###11: Casing Texture
+/Application/assets/images/particles/556casing.png
+###12: Ground Texture
+/Application/assets/images/guns/pistol.png

@@ -1,0 +1,28 @@
+###Lines starting with "###" will not be read
+###Example Shotgun file
+###0: Gun type
+Shotgun
+###1: Name
+Example Shotgun
+###2: Damage
+2
+###3: Shots fired
+8
+###4: BurstSize
+1
+###5: Max Ammo
+50
+###6: Accuracy
+1.5
+###7: Burst Delay
+6
+###8: Rate of fire
+6
+###9: FireType
+Automatic
+###10: Bullet Texture
+/Application/assets/images/bullets/556bullet.png
+###11: Casing Texture
+/Application/assets/images/particles/556casing.png
+###12: Ground Texture
+/Application/assets/images/guns/assaultrifle.png

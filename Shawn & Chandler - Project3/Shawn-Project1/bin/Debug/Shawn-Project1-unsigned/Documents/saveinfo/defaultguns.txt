@@ -1,0 +1,28 @@
+default - true
+assaultrifle
+default - true
+blueshift
+default - true
+burstrifle
+default - true
+chaingun
+default - true
+huntingshotgun
+default - true
+lasergun
+default - true
+marksmanrifle
+default - true
+metalslug
+default - true
+minigun
+default - true
+shotgun
+default - true
+smg
+default - true
+spiralgun
+default - true
+typewriter
+default - true
+tapedeck

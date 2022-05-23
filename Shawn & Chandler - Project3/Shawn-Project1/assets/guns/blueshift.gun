@@ -1,0 +1,26 @@
+###0: Gun type
+LaserGun
+###1: Name
+Blue Shift
+###2: Damage
+1
+###3: BurstSize
+1
+###4: Max Ammo
+200
+###5: Accuracy
+.2
+###6: Burst Delay
+2
+###7: Rate of fire
+2
+###8: FireType
+Automatic
+###9: Recharge rate
+60
+###10: Color value
+0,0,1,1
+###11: Bullet Texture
+/Application/assets/images/bullets/laser.png
+###12: Ground Texture
+/Application/assets/images/guns/laser.png

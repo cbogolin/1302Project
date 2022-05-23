@@ -1,0 +1,26 @@
+###0: Gun type
+LaserGun
+###1: Name
+Decimator
+###2: Damage
+2
+###3: BurstSize
+1
+###4: Max Ammo
+125
+###5: Accuracy
+.2
+###6: Burst Delay
+1
+###7: Rate of fire
+1
+###8: FireType
+Automatic
+###9: Recharge rate
+120
+###10: Color value
+1,1,1,1
+###11: Bullet Texture
+/Application/assets/images/bullets/laser.png
+###12: Ground Texture
+/Application/assets/images/guns/laser_rare.png

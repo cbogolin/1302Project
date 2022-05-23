@@ -1,0 +1,22 @@
+###0: Gun type
+Minigun
+###1: Name
+Vulcan
+###2: Damage
+1
+###3: Max Ammo
+600
+###4: Accuracy
+.5
+###5: Burst Delay
+1
+###6: Minimum bullets shot
+2
+###7: Maximum bullets shot
+4
+###8: Bullet Texture
+/Application/assets/images/bullets/556bullet.png
+###9: Casing Texture
+/Application/assets/images/particles/556casing.png
+###10: Ground Texture
+/Application/assets/images/guns/minigun_rare.png

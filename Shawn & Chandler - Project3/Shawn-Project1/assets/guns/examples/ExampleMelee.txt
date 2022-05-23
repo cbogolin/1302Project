@@ -1,0 +1,20 @@
+###Lines starting with "###" will not be read
+###Example Melee file
+###0: Gun type
+Melee
+###1: Name
+Example Melee
+###2: Damage
+10
+###3: Rate of fire
+60
+###4: Size
+100
+###5: Spread
+.5
+###6: Bullet Texture
+/Application/assets/images/bullets/556bullet.png
+###7: Casing Texture
+/Application/assets/images/particles/556casing.png
+###8: Ground Texture
+/Application/assets/images/guns/assaultrifle.png

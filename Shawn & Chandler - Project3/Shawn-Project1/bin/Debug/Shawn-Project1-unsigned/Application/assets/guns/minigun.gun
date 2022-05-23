@@ -1,0 +1,22 @@
+###0: Gun type
+Minigun
+###1: Name
+Minigun
+###2: Damage
+1
+###3: Max Ammo
+500
+###4: Accuracy
+.5
+###5: Burst Delay
+1
+###6: Minimum bullets shot
+1
+###7: Maximum bullets shot
+3
+###8: Bullet Texture
+/Application/assets/images/bullets/556bullet.png
+###9: Casing Texture
+/Application/assets/images/particles/556casing.png
+###10: Ground Texture
+/Application/assets/images/guns/minigun.png

@@ -1,0 +1,32 @@
+###0: Gun type
+SpiralGun
+###1: Name
+Spiral Gun
+###2: Damage
+5
+###3: BurstSize
+1
+###4: Max Ammo
+40
+###5: Accuracy
+.1
+###6: Burst Delay
+60
+###7: Rate of fire
+60
+###8: FireType
+BoltAction
+###9: Split Delay
+3
+###10: Split Damage
+3
+###11: Split Duration
+30
+###12: Split Angle
+.5
+###13: Bullet Texture
+/Application/assets/images/bullets/shotgunpellet.png
+###14: Casing Texture
+/Application/assets/images/particles/556casing.png
+###15: Ground Texture
+/Application/assets/images/guns/spiralgun.png

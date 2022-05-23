@@ -1,0 +1,24 @@
+###0: Gun type
+AssaultRifle
+###1: Name
+Assault Rifle
+###2: Damage
+5
+###3: BurstSize
+1
+###4: Max Ammo
+150
+###5: Accuracy
+.5
+###6: Burst Delay
+6
+###7: Rate of fire
+6
+###8: FireType
+Automatic
+###9: Bullet Texture
+/Application/assets/images/bullets/556bullet.png
+###10: Casing Texture
+/Application/assets/images/particles/556casing.png
+###11: Ground Texture
+/Application/assets/images/guns/assaultrifle.png

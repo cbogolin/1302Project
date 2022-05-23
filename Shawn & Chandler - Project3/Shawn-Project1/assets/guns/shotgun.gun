@@ -1,0 +1,26 @@
+###0: Gun type
+Shotgun
+###1: Name
+Shotgun
+###2: Damage
+2
+###3: Shots fired
+8
+###4: BurstSize
+1
+###5: Max Ammo
+50
+###6: Accuracy
+1.1
+###7: Burst Delay
+45
+###8: Rate of fire
+0
+###9: FireType
+PumpAction
+###10: Bullet Texture
+/Application/assets/images/bullets/shotgunpellet.png
+###11: Casing Texture
+/Application/assets/images/particles/shotgunshell.png
+###12: Ground Texture
+/Application/assets/images/guns/shotgun.png

@@ -1,0 +1,26 @@
+###0: Gun type
+HandGun
+###1: Name
+Auto-Pistol
+###2: Damage
+3
+###3: BurstSize
+1
+###4: Max Ammo
+25
+###5: Accuracy
+.40
+###6: Burst Delay
+4
+###7: Rate of fire
+4
+###8: Reload speed
+60
+###9: FireType
+Automatic
+###10: Bullet Texture
+/Application/assets/images/bullets/9mmbullet.png
+###11: Casing Texture
+/Application/assets/images/particles/9mmcasing.png
+###12: Ground Texture
+/Application/assets/images/guns/pistol.png

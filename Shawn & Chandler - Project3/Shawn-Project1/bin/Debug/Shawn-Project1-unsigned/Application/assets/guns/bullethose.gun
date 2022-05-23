@@ -1,0 +1,24 @@
+###0: Gun type
+SMG
+###1: Name
+Bullethose
+###2: Damage
+2
+###3: BurstSize
+1
+###4: Max Ammo
+450
+###5: Accuracy
+.6
+###6: Burst Delay
+1
+###7: Rate of fire
+1
+###8: FireType
+Automatic
+###9: Bullet Texture
+/Application/assets/images/bullets/9mmbullet.png
+###10: Casing Texture
+/Application/assets/images/particles/9mmcasing.png
+###11: Ground Texture
+/Application/assets/images/guns/smg_rare.png

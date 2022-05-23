@@ -1,0 +1,54 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shawn-Project1\Gun_SMG.cs">
+    <Files>
+      <File FileName="Shawn-Project1\AppMain.cs" Line="1015" Column="4" />
+      <File FileName="Shawn-Project1\Score.cs" Line="16" Column="35" />
+      <File FileName="Shawn-Project1\Gun_HandGun.cs" Line="152" Column="19" />
+      <File FileName="Shawn-Project1\Gun_Laser.cs" Line="14" Column="21" />
+      <File FileName="Shawn-Project1\Gun_MiniGun.cs" Line="14" Column="19" />
+      <File FileName="Shawn-Project1\Enemy_Tracker.cs" Line="50" Column="22" />
+      <File FileName="Shawn-Project1\Gun.cs" Line="87" Column="9" />
+      <File FileName="Shawn-Project1\Gun_Shotgun.cs" Line="152" Column="19" />
+      <File FileName="Shawn-Project1\Gun_SMG.cs" Line="133" Column="19" />
+      <File FileName="Shawn-Project1\Gun_SpiralGun.cs" Line="10" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="Shawn-Project1" expanded="True">
+            <Node name="assets" expanded="True">
+              <Node name="sound effect" expanded="True" />
+            </Node>
+            <Node name="bin" expanded="True">
+              <Node name="Debug" expanded="True">
+                <Node name="Shawn-Project1-unsigned" expanded="True">
+                  <Node name="Documents" expanded="True">
+                    <Node name="saveinfo" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="enums" expanded="True" />
+            <Node name="obj" expanded="True" />
+            <Node name="Gun_SMG.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this.movement</Value>
+          <Value>this.displayText</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

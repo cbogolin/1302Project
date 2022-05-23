@@ -1,0 +1,22 @@
+survive 1 min - false
+aprilshowers
+survive 3 min - false
+sprinkler
+survive 5 min - true
+vulcan
+kill 30 enemies - false
+autopistol
+kill 50 enemies - true
+heavyrifle
+kill 100 enemies - false
+striker
+kill 20 shielders - true
+autoshotgun
+kill 20 rangers - true
+decimator
+kill 20 trackers - false
+handcannon
+kill 10 of each enemy type - true
+discolaser
+fire 2000 bullets - false
+bullethose

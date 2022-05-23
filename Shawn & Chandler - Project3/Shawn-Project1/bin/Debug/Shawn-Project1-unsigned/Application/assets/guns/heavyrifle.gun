@@ -1,0 +1,24 @@
+###0: Gun type
+AssaultRifle
+###1: Name
+Heavy Rifle
+###2: Damage
+9
+###3: BurstSize
+1
+###4: Max Ammo
+125
+###5: Accuracy
+.4
+###6: Burst Delay
+8
+###7: Rate of fire
+1
+###8: FireType
+Automatic
+###9: Bullet Texture
+/Application/assets/images/bullets/556bullet.png
+###10: Casing Texture
+/Application/assets/images/particles/556casing.png
+###11: Ground Texture
+/Application/assets/images/guns/assaultrifle_rare.png

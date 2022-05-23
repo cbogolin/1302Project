@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC6B3DE9-1535-43DB-902B-6947C4E66C92}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ShawnProject1</RootNamespace>
+    <AssemblyName>Shawn-Project1</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.PlayStation.Core" />
+    <Reference Include="Sce.PlayStation.HighLevel.UI" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppMain.cs" />
+    <Compile Include="Sprite.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Gun.cs" />
+    <Compile Include="Timer.cs" />
+    <Compile Include="enums\TimerStatus.cs" />
+    <Compile Include="Particle.cs" />
+    <Compile Include="enums\EntityState.cs" />
+    <Compile Include="enums\GunStatus.cs" />
+    <Compile Include="enums\FireType.cs" />
+    <Compile Include="Bullet.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Gun_AssaultRifle.cs" />
+    <Compile Include="Gun_Shotgun.cs" />
+    <Compile Include="Gun_SpiralGun.cs" />
+    <Compile Include="Bullet_SpiralBullet.cs" />
+    <Compile Include="Enemy_Shielder.cs" />
+    <Compile Include="Enemy_Tracker.cs" />
+    <Compile Include="Bullet_Laser.cs" />
+    <Compile Include="Gun_Laser.cs" />
+    <Compile Include="Gun_DiscoLaser.cs" />
+    <Compile Include="Gun_MiniGun.cs" />
+    <Compile Include="Gun_HandGun.cs" />
+    <Compile Include="Enemy_Ranger.cs" />
+    <Compile Include="Gun_SMG.cs" />
+    <Compile Include="enums\GameState.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="enums\MenuOrientation.cs" />
+    <Compile Include="Gun_Melee.cs" />
+    <Compile Include="Bullet_Swing.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="MusicManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderProgram Include="shaders\Simple.fcg" />
+    <ShaderProgram Include="shaders\Simple.vcg" />
+    <ShaderProgram Include="shaders\Sprite.fcg" />
+    <ShaderProgram Include="shaders\Sprite.vcg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PsmMetadata Include="app.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="enums\" />
+    <Folder Include="assets\images\" />
+    <Folder Include="assets\guns\" />
+    <Folder Include="assets\images\guns\" />
+    <Folder Include="assets\guns\examples\" />
+    <Folder Include="assets\guns\enemy\" />
+    <Folder Include="assets\misc\" />
+    <Folder Include="assets\images\information\" />
+    <Folder Include="assets\music\" />
+    <Folder Include="assets\sound effect\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\images\Antibody.png" />
+    <Content Include="assets\images\particles\556casing.png" />
+    <Content Include="assets\images\bullets\556bullet.png" />
+    <Content Include="assets\images\bullets\shotgunpellet.png" />
+    <Content Include="assets\images\particles\shotgunshell.png" />
+    <Content Include="assets\images\guns\assaultrifle.png" />
+    <Content Include="assets\images\guns\pistol.png" />
+    <Content Include="assets\images\guns\shotgun.png" />
+    <Content Include="assets\images\guns\spiralgun.png" />
+    <Content Include="assets\guns\assaultrifle.gun" />
+    <Content Include="assets\guns\burstrifle.gun" />
+    <Content Include="assets\guns\marksmanrifle.gun" />
+    <Content Include="assets\guns\shotgun.gun" />
+    <Content Include="assets\guns\striker.gun" />
+    <Content Include="assets\guns\spiralgun.gun" />
+    <Content Include="assets\images\guns\laser.png" />
+    <Content Include="assets\guns\lasergun.gun" />
+    <Content Include="assets\images\bullets\laser.png" />
+    <Content Include="assets\guns\decimator.gun" />
+    <Content Include="assets\guns\discolaser.gun" />
+    <Content Include="assets\images\guns\laser_disco.png" />
+    <Content Include="assets\images\guns\laser_rare.png" />
+    <Content Include="assets\images\guns\shotgun_rare.png" />
+    <Content Include="assets\guns\minigun.gun" />
+    <Content Include="assets\guns\chaingun.gun" />
+    <Content Include="assets\guns\vulcan.gun" />
+    <Content Include="assets\images\guns\minigun.png" />
+    <Content Include="assets\guns\blueshift.gun" />
+    <Content Include="assets\guns\handcannon.gun" />
+    <Content Include="assets\guns\autopistol.gun" />
+    <Content Include="assets\guns\enemy\pistol.gun" />
+    <Content Include="assets\images\guns\assaultrifle_rare.png" />
+    <Content Include="assets\images\guns\minigun_rare.png" />
+    <Content Include="assets\images\guns\pistol_rare.png" />
+    <Content Include="assets\guns\heavyrifle.gun" />
+    <Content Include="assets\guns\huntingshotgun.gun" />
+    <Content Include="assets\guns\metalslug.gun" />
+    <Content Include="assets\guns\autoshotgun.gun" />
+    <Content Include="assets\guns\aprilshowers.gun" />
+    <Content Include="assets\images\guns\spiralgun_rare.png" />
+    <Content Include="assets\images\bullets\9mmbullet.png" />
+    <Content Include="assets\images\particles\9mmcasing.png" />
+    <Content Include="assets\images\particles\50calcasing.png" />
+    <Content Include="assets\images\bullets\50calbullet.png" />
+    <Content Include="assets\guns\smg.gun" />
+    <Content Include="assets\guns\typewriter.gun" />
+    <Content Include="assets\images\guns\smg.png" />
+    <Content Include="assets\misc\unlockedguns.txt" />
+    <Content Include="assets\misc\defaultguns.txt" />
+    <Content Include="assets\images\guns\smg_rare.png" />
+    <Content Include="assets\guns\bullethose.gun" />
+    <Content Include="assets\guns\tapedeck.gun" />
+    <Content Include="assets\guns\handgun.gun" />
+    <Content Include="assets\guns\sprinkler.gun" />
+    <Content Include="assets\guns\examples\ExampleMelee.txt" />
+    <Content Include="assets\guns\enemy\burstpistol.gun" />
+    <Content Include="assets\images\Antibody_02.png" />
+    <Content Include="assets\images\information\alphabet.png" />
+    <Content Include="assets\images\information\Back Button.png" />
+    <Content Include="assets\images\information\Controls Button.png" />
+    <Content Include="assets\images\information\Controls Screen.png" />
+    <Content Include="assets\images\information\Exit Button.png" />
+    <Content Include="assets\images\information\Game Over Screen.png" />
+    <Content Include="assets\images\information\High Scores Button.png" />
+    <Content Include="assets\images\information\High Scores Screen.png" />
+    <Content Include="assets\images\information\New High Score Screen.png" />
+    <Content Include="assets\images\information\No Button.png" />
+    <Content Include="assets\images\information\Play Button.png" />
+    <Content Include="assets\images\information\Play Screen.png" />
+    <Content Include="assets\images\information\Title Screen.png" />
+    <Content Include="assets\images\information\Yes Button.png" />
+    <Content Include="assets\images\information\blank.png" />
+    <Content Include="assets\images\information\Credits Button.png" />
+    <Content Include="assets\images\information\Exit Screen.png" />
+    <Content Include="assets\images\information\Credits Screen.png" />
+    <Content Include="assets\music\Discovery Hit.mp3" />
+    <Content Include="assets\music\Severe Tire Damage.mp3" />
+    <Content Include="assets\music\Ultralounge.mp3" />
+    <Content Include="assets\music\Your Call.mp3" />
+    <Content Include="assets\sound effect\gatling gun.wav" />
+    <Content Include="assets\sound effect\laser gun 1.wav" />
+    <Content Include="assets\sound effect\laser gun 2.wav" />
+    <Content Include="assets\sound effect\machine gun 1.wav" />
+    <Content Include="assets\sound effect\machine gun 2.wav" />
+    <Content Include="assets\sound effect\SUPER GUN.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\guns\examples\ExampleAssaultRifle.txt" />
+    <None Include="assets\guns\examples\ExampleLaserGun.txt" />
+    <None Include="assets\guns\examples\ExampleMiniGun.txt" />
+    <None Include="assets\guns\examples\ExampleShotGun.txt" />
+    <None Include="assets\guns\examples\ExampleSpiralGun.txt" />
+    <None Include="assets\guns\examples\ExmapleDiscoLaser.txt" />
+    <None Include="assets\guns\examples\ExampleHandGun.txt" />
+  </ItemGroup>
+</Project>

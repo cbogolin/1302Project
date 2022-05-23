@@ -1,0 +1,24 @@
+###0: Gun type
+AssaultRifle
+###1: Name
+MarksmanRifle
+###2: Damage
+10
+###3: BurstSize
+0
+###4: Max Ammo
+100
+###5: Accuracy
+.1
+###6: Burst Delay
+4
+###7: Rate of fire
+0
+###8: FireType
+SemiAuto
+###9: Bullet Texture
+/Application/assets/images/bullets/556bullet.png
+###10: Casing Texture
+/Application/assets/images/particles/556casing.png
+###11: Ground Texture
+/Application/assets/images/guns/assaultrifle.png
